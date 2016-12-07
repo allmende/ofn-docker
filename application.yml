@@ -1,0 +1,23 @@
+# Add application configuration variables here, as shown below.
+#
+# Change this, it has serious security implications.
+# Minimum 30 but usually 128 characters. To obtain run 'rake secret', or faster, 'openssl rand -hex 128'
+SECRET_TOKEN: iutixoigh6eingaigucohyoh2hae6tae7fidie5chenieT5Oovai1aid4naeth6aeVaegupi2Ohgh9ubaikae5eejoaph9Buj2pho9ieveraiphai5aeSh5wieboov9u
+
+TIMEZONE: London
+# Default country for dropdowns etc. See for codes: http://en.wikipedia.org/wiki/ISO_3166-1
+DEFAULT_COUNTRY_CODE: GB
+# Locale for translation.
+LOCALE: en
+# Spree zone.
+CHECKOUT_ZONE: Europe
+# Find currency codes at http://en.wikipedia.org/wiki/ISO_4217.
+CURRENCY: EUR
+
+# SingleSignOn login for Discourse
+#
+# DISCOURSE_SSO_SECRET should be a random string. It must be the same as provided to your Discourse instance.
+#DISCOURSE_SSO_SECRET: ""
+#
+# DISCOURSE_URL must be the URL of your Discourse instance.
+#DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"
